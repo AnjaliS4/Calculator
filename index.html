@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" class="calculator-display" disabled />
+
+        <div class="calculator-buttons">
+            <!-- Buttons here -->
+            <button class="btn" onclick="clearDisplay()">C</button>
+            <button class="btn" onclick="deleteDigit()">DEL</button>
+            <button class="btn" onclick="appendOperator('/')">/</button>
+            <button class="btn" onclick="appendOperator('*')">*</button>
+            <button class="btn" onclick="appendDigit(7)">7</button>
+            <!-- Add more buttons as in the previous HTML example -->
+            <button class="btn" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
