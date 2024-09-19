@@ -1,0 +1,21 @@
+body {
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.calculator-display {
+    background-color: black;
+    color: lime;
+}
+.btn {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 5px;
+}
